@@ -37,3 +37,55 @@
     letter-spacing: 0px;
     text-align: left;
 }
+
+/* hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 50px 80px; */
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    width: 582px;
+    height: 270px;
+    left: 120px;
+    right: 738px;
+    top: 285px;
+    bottom: 2751px;
+}
+
+.hero-content h1 {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.hero-content p {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.btn {
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: none;
+    padding: 10px 24px 10px 24px;
+}
