@@ -130,13 +130,55 @@
     border-radius: 5px;
 }
 
-.product-card h3{
+.product-card h3 {
     color: rgb(24, 25, 31);
     font-family: Poppins;
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0%;
-    text-align: left; 
-   
+    text-align: left;
+
+}
+
+
+/* featured */
+.see-more {
+    color: rgba(240, 0, 88, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: right;
+    margin: 20pX 80px;
+    margin-bottom: 30px;
+}
+
+.see-more a{
+    text-decoration: none;
+    color: rgba(240, 0, 88, 0.87);
+}
+
+.feature-text{
+    display: flex;
+    align-items: center;
+}
+.feature-text h2{
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 38px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.feature-text p{
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
 }
