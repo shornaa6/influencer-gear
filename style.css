@@ -1,6 +1,11 @@
-* {
+/* * {
     margin: 5px 10px;
     padding: auto;
+} */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .navbar {
@@ -45,6 +50,10 @@
     justify-content: space-between;
     /* padding: 50px 80px; */
     background-color: #f9f9f9;
+}
+
+.hero-img {
+    background: url(./images/Circle\ design.svg);
 }
 
 .hero-content {
@@ -128,6 +137,7 @@
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     background: rgb(255, 255, 255);
     border-radius: 5px;
+    padding: 15px;
 }
 
 .product-card h3 {
@@ -136,16 +146,28 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
-    letter-spacing: 0%;
     text-align: left;
 
 }
+.product-card img{
+    width: 100%;
+}
 
+.ratting {
+
+    color: rgb(251, 130, 0);
+}
+
+.ratting span{
+    color: rgb(94, 99, 102);
+font-size: 14px;
+font-weight: 700;
+margin-left: 20px;
+}
 
 /* featured */
 .see-more {
     color: rgba(240, 0, 88, 0.87);
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -154,31 +176,71 @@
     margin-bottom: 30px;
 }
 
-.see-more a{
+.see-more a {
     text-decoration: none;
     color: rgba(240, 0, 88, 0.87);
 }
 
-.feature-text{
+.featured-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-.feature-text h2{
-    color: rgb(10, 8, 38);
-font-family: Poppins;
-font-size: 38px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0px;
-text-align: left;
+    margin-bottom: 30px;
+
 }
 
-.feature-text p{
+.feature-text{
+    width: 60%;
+}
+
+.feature-text h2 {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.feature-text p {
     color: rgb(108, 108, 108);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0px;
-text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+/* footer */
+footer {
+    background-color: #050546;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content h3 {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+
+}
+
+.footer-content p {
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
